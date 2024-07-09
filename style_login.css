@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+
+*:root {
+    --color1: #151F30;
+    --color2: #103778;
+    --color3: #0593A2;
+    --color4: #FF7A48;
+    --color5: #E3371E;
+    --color6: #1E1E1E;
+    --color7: #E2E2E2;
+
+    --color8: #801201;
+    --color9: #CF3207;
+    --color10:#1B0202;
+    --color11: #5a5454;
+
+
+    --font: 'Baskervville SC';
+}
+
+body {
+    background: linear-gradient(to left, var(--color10), var(--color8), transparent);
+    background-color: var(--color9);
+    font-family: var(--font);
+    font-weight: 400px;
+    padding-top: 200px; /* Não é uma maneira profissional */
+}
+
+h3 {
+    text-align: left;
+    text-shadow: 1px 1px 2px var(--color5);    
+    margin: 0px;
+}
+
+form {
+    width: 600px;
+    padding: 20px;
+    background-color: var(--color11);
+    color: var(--color7);
+    border-radius: 6px;
+}
+
+fieldset {
+    padding: 1.5em 0 1.5em ;
+}
+
+fieldset img {
+    margin: 5px 8px 5px 5px;
+}
+
+form input {
+    /* display: block; */
+    position: relative;
+    width: 350px;
+    border-radius: 5px;
+}
+
+form label {
+    width: 3.%;
+}
+
+div#login {
+    padding-bottom: 12px;
+}
+
+div#senha {
+    padding-top: 12px;
+    width: 99%; /* O input de Senha estav um pouco atrás do input e-mail (Não descobri o motivo) mas essa linha de cod corrigiu o problema */
+}
+
+#btr {
+    padding-top: 1em;
+    width: 33%;
+}
+
+button {
+    width: 150px;
+    border-radius: 4px;
+    border-color: var(--color7);
+    color: var(--color2);
+}
+
+:active button {
+    background-color: #0593A2;
+    border-color: var(--color3);
+    
+}
+
+footer label {
+    width: 460px;
+}
+
+footer input {
+    float: left;
+    width: 25px;
+    margin: 5px 5px 0 0;
+}
+
+footer p {
+    margin: 10px;
+    text-align: center;
+}
+
+#login_sub {
+
+}
+
+
+
+
+a {
+    background: linear-gradient(to right, var(--color5), var(--color8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
