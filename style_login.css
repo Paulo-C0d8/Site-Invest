@@ -71,7 +71,7 @@ div#login {
 
 div#senha {
     padding-top: 12px;
-    width: 99%; /* O input de Senha estav um pouco atrás do input e-mail (Não descobri o motivo) mas essa linha de cod corrigiu o problema */
+    width: 99%; /* O input de Senha estava um pouco atrás do input e-mail (Não descobri o motivo) mas essa linha de cod corrigiu o problema */
 }
 
 #btr {
@@ -107,16 +107,9 @@ footer p {
     text-align: center;
 }
 
-#login_sub {
-
-}
-
-
-
-
 a {
     background: linear-gradient(to right, var(--color5), var(--color8));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
 }
