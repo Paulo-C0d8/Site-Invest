@@ -29,7 +29,6 @@ body {
     background-color: var(--color9);
     font-family: var(--font);
     font-weight: 400px;
-    padding-top: 200px; /* Não é uma maneira profissional */
 }
 
 h3 {
@@ -44,6 +43,11 @@ form {
     background-color: var(--color11);
     color: var(--color7);
     border-radius: 6px;
+    /* Para centralizar o conteudo */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 fieldset {
